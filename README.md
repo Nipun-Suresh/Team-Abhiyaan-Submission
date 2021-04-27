@@ -37,5 +37,5 @@ Artificial Intelligence by Dr. Patrick Winston (MIT OCW)
 
 Self Study from Books
 ----------------------
-A Modern Approach to Artifical Intelligence by Russel & Norvig
+A Modern Approach to Artifical Intelligence by Russel & Norvig \n
 Object Oriented Programming (C++) by Balaguruswamy
