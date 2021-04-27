@@ -42,6 +42,7 @@ Object Oriented Programming (C++) by Balaguruswamy
 
 Note
 -------------
-The files in the repository along with the folder 'Q2,Q3 c++ codes' contain .cpp files (C++ code)\
-However, for the questions involving ROS alone, in addition to the C++ codes of the nodes, the packages have been uploaded in the folder 'ROS Packages'.\
-They contain the nodes, CMake files and package.xml files
+Answers to all questions have been uploaded as files in the repository.\
+1. 'Q2,Q3 c++ codes' contain .cpp files (C++ code) for questions A2 and A3, which are linked and are hence placed in a folder together\
+2. For the questions involving ROS alone, code has been uploaded twice. Once as just C++ code,\
+another time in the 'ROS Packages' folder, which contains the nodes along with CMake and package.xml files
