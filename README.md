@@ -39,3 +39,9 @@ Self Study from Books
 ----------------------
 A Modern Approach to Artifical Intelligence by Russel & Norvig\
 Object Oriented Programming (C++) by Balaguruswamy
+
+Note
+-------------
+The files in the repository along with the folder 'Q2,Q3 c++ codes' contain .cpp files (C++ code)\
+However, for the questions involving ROS alone, in addition to the C++ codes of the nodes, the packages have been uploaded in the folder 'ROS Packages'.\
+They contain the nodes, CMake files and package.xml files
