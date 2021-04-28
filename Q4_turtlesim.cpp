@@ -39,11 +39,6 @@ double Coord::x0 = 0;
 double Coord::y0 = 0;
 
 void iniVel(double vx,double vz);   //initializes linear velocity along x and angular velocity along z
-void iniCallback(const turtlesim::Pose& msg)
-{
-    Coord::x0 = msg.x;
-    Coord::y0 = msg.y;
-}
 void callback(const turtlesim::Pose& msg)
 {
     double x=msg.x,y=msg.y;
@@ -64,7 +59,6 @@ int main(int argc,char** argv)
     const double vx=0.8;
     Coord::x0=5.4445;
     Coord::y0=5.4445;
-    //initialize x0,y0
     //publisher object created
     ros::Publisher vel_pub=n.advertise<geometry_msgs::Twist>("/turtle2/cmd_vel",100);
     
