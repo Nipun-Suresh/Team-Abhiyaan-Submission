@@ -16,8 +16,11 @@ void callback1(const std_msgs::String::ConstPtr& msg) //for team abhiyaan topic
 }
 void callback2(const std_msgs::String::ConstPtr& msg) //for autonomy topic
 {
-    std::strcat(finalMsg,msg->data.c_str());    //message published by /autonomy topic is appended
-    ROS_INFO("[%s]", finalMsg);
+    if (strcmp(finalMsg,"\0")!=0)
+    {
+        std::strcat(finalMsg,msg->data.c_str());    //message published by /autonomy topic is appended
+        ROS_INFO("[%s]", finalMsg);
+    }
 }
 
 int main(int argc,char** argv)
